@@ -56,7 +56,7 @@ public class Metodos {
 			adresa = adresa.replace(' ', '+');
 
 			URL u = new URL("https://maps.googleapis.com/maps/api/geocode/json?address=" + adresa + "&key="
-					+ "AIzaSyC7iDyIpDFwqfgFsRFPIBs2WcSe4QN27lc");
+					+ "APIKEY");			
 
 			BufferedReader theHTML = new BufferedReader(new InputStreamReader(u.openStream()));
 
