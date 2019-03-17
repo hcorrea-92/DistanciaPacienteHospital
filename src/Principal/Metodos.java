@@ -28,11 +28,11 @@ public class Metodos {
 		Pacientes.put(id, new Paciente(id, nome, cpf, dtNascimento, sexo, dtEntrada));
 		// find coordinates
 
-		System.out.println(getCoordinates("Riachuelo, 609, Americana, Sao Paulo"));
+		System.out.println(getCoordinates("Av Brasil, 815, Americana, Sao Paulo"));
 		
-		System.out.println(getCoordinates("R Dom Pedro II, 1101, Americana, Sao Paulo"));
+		System.out.println(getCoordinates("Av. Albert Einstein, 627, Sao Paulo, Sao Paulo"));
 		
-		System.out.println(getCoordinates("Av Paulista, 1101, Sao Paulo, Sao Paulo"));
+		System.out.println(getCoordinates("Av Paulista, 100, Sao Paulo, Sao Paulo"));
 
 	}
 
